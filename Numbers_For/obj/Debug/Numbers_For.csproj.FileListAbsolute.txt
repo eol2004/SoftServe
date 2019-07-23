@@ -1,0 +1,7 @@
+C:\C#\Numbers_For\bin\Debug\Numbers_For.exe.config
+C:\C#\Numbers_For\bin\Debug\Numbers_For.exe
+C:\C#\Numbers_For\bin\Debug\Numbers_For.pdb
+C:\C#\Numbers_For\obj\Debug\Numbers_For.csprojAssemblyReference.cache
+C:\C#\Numbers_For\obj\Debug\Numbers_For.csproj.CoreCompileInputs.cache
+C:\C#\Numbers_For\obj\Debug\Numbers_For.exe
+C:\C#\Numbers_For\obj\Debug\Numbers_For.pdb

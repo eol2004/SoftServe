@@ -1,0 +1,11 @@
+C:\C#\Numbers_DoWhile\obj\Debug\netcoreapp2.1\Numbers_DoWhile.csprojAssemblyReference.cache
+C:\C#\Numbers_DoWhile\obj\Debug\netcoreapp2.1\Numbers_DoWhile.csproj.CoreCompileInputs.cache
+C:\C#\Numbers_DoWhile\obj\Debug\netcoreapp2.1\Numbers_DoWhile.AssemblyInfoInputs.cache
+C:\C#\Numbers_DoWhile\obj\Debug\netcoreapp2.1\Numbers_DoWhile.AssemblyInfo.cs
+C:\C#\Numbers_DoWhile\bin\Debug\netcoreapp2.1\Numbers_DoWhile.deps.json
+C:\C#\Numbers_DoWhile\bin\Debug\netcoreapp2.1\Numbers_DoWhile.runtimeconfig.json
+C:\C#\Numbers_DoWhile\bin\Debug\netcoreapp2.1\Numbers_DoWhile.runtimeconfig.dev.json
+C:\C#\Numbers_DoWhile\bin\Debug\netcoreapp2.1\Numbers_DoWhile.dll
+C:\C#\Numbers_DoWhile\bin\Debug\netcoreapp2.1\Numbers_DoWhile.pdb
+C:\C#\Numbers_DoWhile\obj\Debug\netcoreapp2.1\Numbers_DoWhile.dll
+C:\C#\Numbers_DoWhile\obj\Debug\netcoreapp2.1\Numbers_DoWhile.pdb

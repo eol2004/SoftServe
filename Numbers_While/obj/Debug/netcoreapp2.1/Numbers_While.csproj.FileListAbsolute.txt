@@ -1,0 +1,11 @@
+C:\C#\Numbers_While\bin\Debug\netcoreapp2.1\Numbers_While.deps.json
+C:\C#\Numbers_While\bin\Debug\netcoreapp2.1\Numbers_While.runtimeconfig.json
+C:\C#\Numbers_While\bin\Debug\netcoreapp2.1\Numbers_While.runtimeconfig.dev.json
+C:\C#\Numbers_While\bin\Debug\netcoreapp2.1\Numbers_While.dll
+C:\C#\Numbers_While\bin\Debug\netcoreapp2.1\Numbers_While.pdb
+C:\C#\Numbers_While\obj\Debug\netcoreapp2.1\Numbers_While.csprojAssemblyReference.cache
+C:\C#\Numbers_While\obj\Debug\netcoreapp2.1\Numbers_While.csproj.CoreCompileInputs.cache
+C:\C#\Numbers_While\obj\Debug\netcoreapp2.1\Numbers_While.AssemblyInfoInputs.cache
+C:\C#\Numbers_While\obj\Debug\netcoreapp2.1\Numbers_While.AssemblyInfo.cs
+C:\C#\Numbers_While\obj\Debug\netcoreapp2.1\Numbers_While.dll
+C:\C#\Numbers_While\obj\Debug\netcoreapp2.1\Numbers_While.pdb
