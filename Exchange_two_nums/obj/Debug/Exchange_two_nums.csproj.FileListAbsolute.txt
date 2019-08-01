@@ -1,0 +1,7 @@
+C:\C#\Exchange_two_nums\obj\Debug\Exchange_two_nums.csprojAssemblyReference.cache
+C:\C#\Exchange_two_nums\obj\Debug\Exchange_two_nums.csproj.CoreCompileInputs.cache
+C:\C#\Exchange_two_nums\bin\Debug\Exchange_two_nums.exe.config
+C:\C#\Exchange_two_nums\bin\Debug\Exchange_two_nums.exe
+C:\C#\Exchange_two_nums\bin\Debug\Exchange_two_nums.pdb
+C:\C#\Exchange_two_nums\obj\Debug\Exchange_two_nums.exe
+C:\C#\Exchange_two_nums\obj\Debug\Exchange_two_nums.pdb
