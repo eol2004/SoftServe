@@ -1,0 +1,22 @@
+﻿<va-main-menu items="mainMenu.items" is-collapsed="mainMenu.isCollapsed">
+    <div class="info">
+        <span class="info-version">{{platformVersion}}</span>
+    </div>
+</va-main-menu>
+<article class="cnt" role="main">
+    <div class="cnt-inner">
+        <div class="dashboard" ng-if="$state.current.name === 'workspace'">
+            <header class="dashboard-head">
+                <h1 class="dashboard-title">Администратор Бара</h1>
+                <va-login-toolbar></va-login-toolbar>
+            </header>
+            <div class="dashboard-area">
+                <div class="dashboard-inner">
+                    <va-widget-container group="mainDashboard" gridster-opts="{columns: 6, minRows: 4}"></va-widget-container>
+                </div>
+            </div>
+        </div>
+
+        <ui-view />
+    </div>
+</article>

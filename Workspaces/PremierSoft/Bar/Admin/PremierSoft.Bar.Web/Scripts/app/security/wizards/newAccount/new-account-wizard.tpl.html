@@ -1,0 +1,63 @@
+﻿<div class="blade-static __bottom" ng-include="'$(Platform)/Scripts/common/templates/create.tpl.html'"></div>
+<div class="blade-content">
+    <div class="blade-inner">
+        <div class="inner-block">
+            <form class="form" name="formScope">
+                <div class="form-group" ng-init="setForm(formScope)">
+                    <label class="form-label">Имя в системе</label>
+                    <div class="form-input">
+                        <input ng-model="blade.currentEntity.displayName" type="text" placeholder="Введите имя пользователя в системе" required focus-me="true">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">{{ 'platform.blades.new-account-wizard.labels.login' | translate }}</label>
+                    <div class="form-input">
+                        <input ng-model="blade.currentEntity.username" type="text">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">{{ 'platform.blades.new-account-wizard.labels.password' | translate }}</label>
+                    <div class="form-input">
+                        <input ng-model="blade.currentEntity.password" placeholder="{{ 'platform.blades.new-account-wizard.placeholders.password' | translate }}" type="password">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">{{ 'platform.blades.new-account-wizard.labels.repeat-password' | translate }}</label>
+                    <div class="form-input">
+                        <input ng-model="blade.currentEntity.newPassword2" placeholder="{{ 'platform.blades.new-account-wizard.placeholders.repeat-password' | translate }}" type="password">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Предприятие</label>
+                    <div class="form-input">
+                        <ui-select ng-model="blade.currentEntity.companyId" required>
+                            <ui-select-match placeholder="Выберите предприятие">{{$select.selected.name}}</ui-select-match>
+                            <ui-select-choices repeat="x.id as x in companies | filter: { name: $select.search }">
+                                <span ng-bind-html="x.name | highlight: $select.search"></span>
+                            </ui-select-choices>
+                        </ui-select>
+                    </div>
+                </div>
+            </form>
+            <div class="sub-t">{{ 'platform.blades.new-account-wizard.labels.assign-roles' | translate }}</div>
+            <div class="table-wrapper">
+                <table class="table">
+                    <tbody>
+                        <tr class="table-item" ng-repeat="data in blade.currentEntities track by data.id" ng-class="{'__selected': data.id === selectedNodeId}">
+                            <td class="table-col">
+                                <label class="form-control __checkbox">
+                                    <input type="checkbox" ng-model="data.$selected">
+                                    <span class="check"></span>
+                                </label>
+                            </td>
+                            <td class="table-col" ng-click='blade.selectNode(data)'>
+                                <span class="table-t">{{data.name}}</span>
+                                <span class="table-descr">{{data.description}}</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

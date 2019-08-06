@@ -1,0 +1,8 @@
+﻿<div ng-click='grid.appScope.selectNode(row.entity)'
+    ng-repeat="(colRenderIndex, col) in colContainer.renderedColumns track by col.uid"
+    ui-grid-one-bind-id-grid="rowRenderIndex + '-' + col.uid + '-cell'" 
+    class="ui-grid-cell" ng-class="{'ui-grid-row-header-cell': col.isRowHeader, '__hovered': grid.appScope.contextMenuEntity === row.entity}"
+    role="{{col.isRowHeader ? 'rowheader' : 'gridcell' }}" ui-grid-cell
+    style="{{'cursor: ' + (col.name==='actions' ? 'pointer': 'default')}}"
+    context-menu="grid.appScope.contextMenuEntity = row.entity" data-target="{{grid.appScope.contextMenuId}}ast_menu">
+</div>
